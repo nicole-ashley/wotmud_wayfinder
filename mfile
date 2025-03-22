@@ -2,7 +2,7 @@
   "package": "wotmud_wayfinder",
   "title": "Autowalk implementation for WoTMUD using Wayfinder",
   "description": "",
-  "version": "0.1",
+  "version": "0.2",
   "author": "Nicole Ashley",
   "icon": "",
   "dependencies": "wotpack_installer,wayfinder-an-alternate-route-finder-package",

@@ -2,56 +2,56 @@
   {
     "name": "Help",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder help$",
+    "regex": "^\\s*wotmud_wayfinder(?:\\s+help)?\\s*$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Avoid",
+    "isActive": "yes",
+    "regex": "^\\s*wotmud_wayfinder\\s+avoid(?:\\s+(\\w+))?\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Auto-flee",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder flee$",
+    "regex": "^\\s*wotmud_wayfinder\\s+flee\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Manage doors",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder doors$",
+    "regex": "^\\s*wotmud_wayfinder\\s+doors\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Manage exhaustion",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder exhaustion$",
+    "regex": "^\\s*wotmud_wayfinder\\s+exhaustion\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Manage horse",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder horse$",
+    "regex": "^\\s*wotmud_wayfinder\\s+horse\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Resume after kills",
     "isActive": "yes",
-    "regex": "^wotmud_wayfinder kills$",
-    "script": "",
-    "isFolder": "no"
-  },
-  {
-    "name": "Swim",
-    "isActive": "yes",
-    "regex": "^wotmud_wayfinder swim$",
+    "regex": "^\\s*wotmud_wayfinder\\s+kills\\s*$",
     "script": "",
     "isFolder": "no"
   },
   {
     "name": "Stop iterative speedwalk",
     "isActive": "yes",
-    "regex": "^stopwalk$",
+    "regex": "^\\s*stopwalk\\s*$",
     "script": "",
     "isFolder": "no"
   }

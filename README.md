@@ -9,9 +9,8 @@ What WoTMUD Wayfinder can do:
 
 * Find the optimal route from A to B, favouring paths that expend less MV (where this is known)
 * Resume after disruption, including disruption that takes it off the intended path
+* Navigate around configured room types (smob and water are avoided by default)
 * Avoid the Moveable Trolloc Camp (the fact that it moves breaks navigation)
-* Avoid water (unless you tell it you can swim)
-* Avoid SMOBs (where they are marked in the map)
 * Open doors and gates when they're in your way (off by default)
 * Call for city gates when they're closed (off by default)
 * Dismount and lead to go indoors, then mount again when going back outside (off by default)
@@ -22,6 +21,7 @@ What WoTMUD Wayfinder can do:
 What WoTMUD Wayfinder can't do:
 
 * Keep you out of danger (other than some Smobs, danger is not noted in the wotpack map)
+* Prevent you from entering avoided room types when fleeing or due to lag accidents
 * Distinguish between hills and mountains MV cost (this is not noted in the wotpack map)
 * Use class-specific shortcuts (Portals, Fades, etc)
 * Use non-linear or temporal shortcuts (The Ways, coaches, ships, Moveable Trolloc Camp)

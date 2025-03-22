@@ -13,16 +13,18 @@ function wotmud_wayfinder.gotoRoom(a, b)
   local rooms, ways
 
   local function chk(d, room, irooms, iway)
+    if getRoomAreaName(getRoomArea(room)) == "Blodfest" then return false end
+
+    local roomEnv = wotmud_wayfinder.environments[getRoomEnv(room)]
+    if not table.is_empty(table.matches(roomEnv.types, unpack(wotmud_wayfinder.settings.avoid))) then
+      return false
+    end
+
     if room == b then
       rooms = irooms; ways = iway
       return true
     end
 
-    if getRoomAreaName(getRoomArea(room)) == "Blodfest" then return false end
-
-    local roomEnv = wotmud_wayfinder.environments[getRoomEnv(room)]
-    if roomEnv.type == "water" and wotmud_wayfinder.settings.water ~= true then
-      return false end
     return roomEnv.weight
   end
 
@@ -47,7 +49,7 @@ function wotmud_wayfinder.doSpeedWalkNextStep()
   local roomInNextDirection = getRoomExits(currentRoom)[nextDirection]
 
   if tostring(roomInNextDirection) == tostring(nextRoom) then
-    send(string.sub(nextDirection, 1, 1))
+    send(nextDirection:sub(1, 1))
     wotmud_wayfinder.last_current_room_id = currentRoom
 
     enableTimer("wotmud_wayfinder detect wotmudmapper room change")
@@ -71,6 +73,8 @@ function doSpeedWalk()
       speedWalkDir = ways
       speedWalkPath = rooms
       wotmud_wayfinder.doSpeedWalkNextStep()
+    else
+      echo("Unable to find a way to your destination. Check that you're not avoiding an unavoidable room type between there and where you are currently.\n")
     end
   else
     wotmudmapper:echo("Current room not known.\n", false, true)
