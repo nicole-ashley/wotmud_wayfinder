@@ -10,6 +10,7 @@ if wotmudmapper.currentID[1] ~= wotmud_wayfinder.last_current_room_id then
       send("ride")
     end
 
+    unHighlightRoom(speedWalkPath[1])
     table.remove(speedWalkDir, 1)
     table.remove(speedWalkPath, 1)
     wotmud_wayfinder.doSpeedWalkNextStep()

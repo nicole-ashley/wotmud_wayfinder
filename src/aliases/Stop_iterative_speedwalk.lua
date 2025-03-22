@@ -1,2 +1,2 @@
 wotmud_wayfinder.endSpeedWalk()
-echo("Speedwalk stopped.\n")
+echo("Auto-walk stopped.\n")
