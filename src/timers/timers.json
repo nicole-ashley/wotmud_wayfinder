@@ -1,0 +1,12 @@
+[
+  {
+    "name": "wotmud_wayfinder detect wotmudmapper room change",
+    "isActive": "no",
+    "command": "",
+    "hours": "0",
+    "minutes": "0",
+    "seconds": "0",
+    "milliseconds": "1",
+    "script": ""
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "wotmud_wayfinder_doSpeedWalk",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder.resumeSpeedWalkOnTick",
+    "isActive": "no",
+    "eventHandlerList": ["tic"],
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_setup",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  }
+]

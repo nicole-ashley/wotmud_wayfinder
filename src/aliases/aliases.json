@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Help",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder help$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Auto-flee",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder flee$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Manage doors",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder doors$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Manage exhaustion",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder exhaustion$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Manage horse",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder horse$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Resume after kills",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder kills$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Swim",
+    "isActive": "yes",
+    "regex": "^wotmud_wayfinder swim$",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "Stop iterative speedwalk",
+    "isActive": "yes",
+    "regex": "^stopwalk$",
+    "script": "",
+    "isFolder": "no"
+  }
+]
