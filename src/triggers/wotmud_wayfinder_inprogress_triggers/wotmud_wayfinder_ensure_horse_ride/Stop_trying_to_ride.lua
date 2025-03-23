@@ -1,2 +1,0 @@
-disableTrigger("wotmud_wayfinder_ensure_horse_ride")
-wotmud_wayfinder.ride_on_next_outdoor_room = false

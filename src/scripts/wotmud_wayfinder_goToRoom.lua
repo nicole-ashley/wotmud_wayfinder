@@ -27,7 +27,7 @@ function wotmud_wayfinder.gotoRoom(destination, beginning)
       return true
     end
 
-    return roomEnv.weight
+    return wotmud_wayfinder.environments[getRoomEnv(room)].weight
   end
 
   if not findWayToRoom(destination, checkRoom) then return end

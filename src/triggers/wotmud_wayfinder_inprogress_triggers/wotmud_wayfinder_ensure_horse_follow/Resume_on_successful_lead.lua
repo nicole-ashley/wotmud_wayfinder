@@ -1,2 +1,0 @@
-disableTrigger("wotmud_wayfinder_ensure_horse_follow")
-wotmud_wayfinder.doSpeedWalkNextStep()

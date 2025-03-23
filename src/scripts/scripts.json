@@ -1,5 +1,17 @@
 [
   {
+    "name": "wotmud_wayfinder_autoFlee",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_doorManagement",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
     "name": "wotmud_wayfinder_doSpeedWalk",
     "isActive": "yes",
     "script": "",
@@ -7,6 +19,36 @@
   },
   {
     "name": "wotmud_wayfinder_environments",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_exhaustionManagement",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_goToRoom",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_horseManagement",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_resumeAfterKill",
+    "isActive": "yes",
+    "script": "",
+    "isFolder": "no"
+  },
+  {
+    "name": "wotmud_wayfinder_roomChangeDetection",
     "isActive": "yes",
     "script": "",
     "isFolder": "no"
